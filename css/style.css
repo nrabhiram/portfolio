@@ -228,6 +228,14 @@ footer ul.copyright li {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1200px) {
+    header {
+        background-attachment: scroll;
+    }
+
+    .skills {
+        background-attachment: scroll;
+    }
+
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
@@ -266,34 +274,34 @@ footer ul.copyright li {
         padding: 0 20px;
     }
 
-    @media only screen and (max-width: 673px) {
-        .navbar ul {
-            padding: 0 5px;
-        }
-
-        .navbar ul li a {
-            padding: 0 10px;
-        }
+@media only screen and (max-width: 673px) {
+    .navbar ul {
+        padding: 0 5px;
     }
 
-    @media only screen and (max-width: 480px) {
-        .navbar {
-            display: none;
-        }
-
-        .navbar-brand-2 {
-            display: block;
-            float: left;
-            height: 60px;
-            line-height: 60px;
-            padding: 0;
-        }
-
-        .navbar-brand-2 img {
-            width: 80px;
-            margin-top: -10px;
-        }
+    .navbar ul li a {
+        padding: 0 10px;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+         display: none;
+    }
+
+    .navbar-brand-2 {
+        display: block;
+        float: left;
+        height: 60px;
+        line-height: 60px;
+        padding: 0;
+    }
+
+    .navbar-brand-2 img {
+        width: 80px;
+        margin-top: -10px;
+    }
+}
 
     
 
