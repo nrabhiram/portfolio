@@ -12,7 +12,6 @@ body {
     font-weight: 300;
     font-size: 20px;
     overflow-x: hidden;
-    width: 100%;
 }
 
 .row {
@@ -25,6 +24,7 @@ section {
 }
 
 /* HERO */
+
 header {
     background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(hero-img.gif);
     height: 100vh;
@@ -33,9 +33,10 @@ header {
     background-attachment: fixed;
 }
 
+
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -91,7 +92,7 @@ header {
     padding: 0 50px;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline-block;
 }
 
@@ -148,23 +149,49 @@ h2:after {
 
 h1 {
     font-size: 300%;
+}
+
+.title-main {
+    font-size: 100%;
+    word-spacing: 4px;
+    color: #fff;
+    display: block;
+    /* Animation */
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.title-sub {
+    font-size: 40%;
+    word-spacing: 1px;
+    color: #fff;
+    display: block;
+    /* Animation */
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+/*
+h1 {
+    font-size: 300%;
     word-spacing: 4px;
     color: #fff;
     margin-bottom: 20px;
-    /* Animation */
+    Animation 
     animation-duration: 0.5s;
     animation-iteration-count: 1;
 }
 
 h3 {
-    min-width:250px;
     font-size: 120%;
     word-spacing: 1px;
     color: #fff;
-    /* Animation */
+    min-width: 250px;
+     Animation 
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
+*/
 
 /* PARAGRAPHS */
 .text {
@@ -274,6 +301,7 @@ footer ul.copyright li {
     .navbar ul li a {
         padding: 0 20px;
     }
+}
 
 @media only screen and (max-width: 673px) {
     .navbar ul {
@@ -303,8 +331,4 @@ footer ul.copyright li {
         margin-top: -10px;
     }
 }
-
-    
-
-
 
