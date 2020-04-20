@@ -156,6 +156,7 @@ h1 {
     word-spacing: 4px;
     color: #fff;
     display: block;
+    margin-bottom: 20px;
     /* Animation */
     animation-duration: 1s;
     animation-iteration-count: 1;
